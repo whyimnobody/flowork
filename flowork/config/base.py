@@ -35,7 +35,7 @@ INTERNAL_APPS = [
 ]
 
 LOCAL_APPS = [
-    # "workflows",
+    "workflows.apps.WorkflowsConfig",
 ]
 
 INSTALLED_APPS = INTERNAL_APPS + LOCAL_APPS
